@@ -1,4 +1,5 @@
 import React from 'react'
+import {Product, Amount} from "./Styles/Cabecera";
 
 // El componente Cabera no tiene componentes hijos.
 // ESTADO: Cabecera no tiene estado.
@@ -11,9 +12,9 @@ import React from 'react'
 export default function Cabecera({cant}) {
   
   return (
-    <header>
+    <Product>
       <h1>Carrito de compras</h1>
-      <p>Cantidad de productos <span>{cant}</span></p>
-    </header>
+      <p>Cantidad de productos <Amount>{cant}</Amount></p>
+    </Product>
   )
 }
