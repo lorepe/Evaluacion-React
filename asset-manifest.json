@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Evaluacion-React/static/css/main.e1cc723f.css",
+    "main.js": "/Evaluacion-React/static/js/main.d2abd448.js",
+    "index.html": "/Evaluacion-React/index.html",
+    "main.e1cc723f.css.map": "/Evaluacion-React/static/css/main.e1cc723f.css.map",
+    "main.d2abd448.js.map": "/Evaluacion-React/static/js/main.d2abd448.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1cc723f.css",
+    "static/js/main.d2abd448.js"
+  ]
+}
