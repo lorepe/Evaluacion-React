@@ -1,5 +1,6 @@
 import React from 'react'
 import Item from './Item'
+
 // import data from './data.json'
 
 // Debemos importar el listado de objetos del archivo JSON para usarlos como array a la hora de crear cada Item.
@@ -18,7 +19,7 @@ export default function Listado({metodo}) {
         dataJson.map(item =>
           <Item
           key={item.id}
-          nombre={item.producto.nombre} 
+          nombre={item.producto.nombre}
           descripcion={item.producto.descripcion} 
           stockRecibido={item.stock} 
           metodo={metodo}/>
